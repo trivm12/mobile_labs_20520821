@@ -1,5 +1,4 @@
 <h1 align=center> Mobiles Application Developememt <h1>
-
 ## Full name: Võ Minh Trí
 ## ID: 20520821
 
