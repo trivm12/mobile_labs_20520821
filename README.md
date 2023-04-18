@@ -4,5 +4,5 @@
 ## ID: 20520821
 
 #### Table of Contents:
-* [Lab 1](https://github.com/trivm12/mobile_labs_20520821/tree/main/Mobile_Lab1_20520821-main)
-* [Lab 2]()
+* [Lab 1](https://github.com/trivm12/mobile_labs_20520821/tree/lab1)
+* [Lab 2](https://github.com/trivm12/mobile_labs_20520821/tree/lab2)
