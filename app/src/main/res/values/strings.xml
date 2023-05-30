@@ -1,6 +1,16 @@
 <resources>
-    <string name="app_name">mobile_lab4_20520821</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">Mobiles_lab4_20520821</string>
+    <string name="mobile">Account</string>
+    <string name="labs">Simulator</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone</string>
+    <string name="back_to">Already have an account?</string>
+    <string name="welcome_to_home_page">Welcome to Home Page</string>
+    <string name="name">Name</string>
+    <string name="log_out">Log Out</string>
 </resources>
