@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
         handleClickAnimationCode(btnBlinkCode, initBlinkAnimation());
     }
 
-    private void handleClickAnimationXML(Button btn, int ani) {
-        final Animation animation = AnimationUtils.loadAnimation(MainActivity.this, ani);
+    private void handleClickAnimationXML(Button btn, int anim) {
+        final Animation animation = AnimationUtils.loadAnimation(MainActivity.this, anim);
         animation.setAnimationListener(animationListener);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void handleClickAnimationCode(Button btn, final Animation animation) {
 
-        // Handle onclickListenner to start animation
+        // Handle onClickListener to start animation
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
         animation.setAnimationListener(animationListener);
        return animation;
     }
-
     private void findViewsByIds() {
         ivUitLogo = (ImageView) findViewById(R.id.iv_uit_logo);
         btnFadeInXml = (Button) findViewById(R.id.btn_fade_in_xml);

@@ -8,15 +8,15 @@ import android.view.View;
 import android.widget.Button;
 
 public class BackAnimation extends AppCompatActivity {
-    private Button back;
+    private Button backBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_back_animation);
 
-        back = (Button) findViewById(R.id.back_btn);
+        backBtn = (Button) findViewById(R.id.back_btn);
 
-        back.setOnClickListener(new View.OnClickListener() {
+        backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(BackAnimation.this, MainActivity.class));
