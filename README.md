@@ -6,3 +6,5 @@
 #### Table of Contents:
 * [Lab 1](https://github.com/trivm12/mobile_labs_20520821/tree/lab1)
 * [Lab 2](https://github.com/trivm12/mobile_labs_20520821/tree/lab2)
+* [Lab 4](https://github.com/trivm12/mobile_labs_20520821/tree/lab4)
+* [Lab 5](https://github.com/trivm12/mobile_labs_20520821/tree/lab5)
