@@ -2,6 +2,7 @@ package com.example.lab5;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
@@ -46,8 +47,20 @@ public class MainActivity extends AppCompatActivity {
         handleClickAnimationCode(btnFadeInCode, initFadeInAnimation());
         handleClickAnimationCode(btnFadeOutCode, initFadeOutAnimation());
         handleClickAnimationCode(btnBlinkCode, initBlinkAnimation());
-    }
 
+        // HandlePageTransitionAnimationXml
+        HandlePageTransitionAnimationXml(ivUitLogo, R.anim.anim_slide_enter, R.anim.anim_slide_exit);
+    }
+    private void HandlePageTransitionAnimationXml(ImageView img, int anim, int anim2) {
+        img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, BackAnimation.class));
+
+                overridePendingTransition(anim, anim2);
+            }
+        });
+    }
     private void handleClickAnimationXML(Button btn, int anim) {
         final Animation animation = AnimationUtils.loadAnimation(MainActivity.this, anim);
         animation.setAnimationListener(animationListener);
