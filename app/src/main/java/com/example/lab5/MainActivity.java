@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         handleClickAnimationCode(btnBlinkCode, initBlinkAnimation());
 
         // HandlePageTransitionAnimationXml
-        HandlePageTransitionAnimationXml(ivUitLogo, R.anim.anim_slide_enter, R.anim.anim_slide_exit);
+        HandlePageTransitionAnimationXml(ivUitLogo, R.anim.anim_fade_in, R.anim.anim_fade_out);
     }
     private void HandlePageTransitionAnimationXml(ImageView img, int anim, int anim2) {
         img.setOnClickListener(new View.OnClickListener() {
